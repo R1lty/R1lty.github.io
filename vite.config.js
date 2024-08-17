@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/egorfy', // Укажите имя репозитория
+  base: '/', // Укажите имя репозитория
 });
