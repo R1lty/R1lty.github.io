@@ -43,7 +43,7 @@ const DisplayAlbum = () => {
         <div
           onClick={() => playWithId(item)} // Здесь вызывается функция playWithId при клике на трек
           key={index}
-          className="grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer"
+          className="grid grid-cols-3 sm:grid-cols-4 gap-2 p-1 sm:p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer"
         >
           <p className="text-white">
             <b className="mr-4 text-[#a7a7a7]">{index + 1}</b>
