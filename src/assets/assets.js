@@ -112,7 +112,7 @@ export const albumsData = [
     songs: [
       {
         id: 0,
-        name: "Hände Hoch - Meine Kleine",
+        name: "Hände Hoch",
         image: handeHoh,
         file: handeHoch,
         desc: "Прогулка по Берлину",
@@ -128,7 +128,7 @@ export const albumsData = [
       },
       {
         id: 2,
-        name: "Заплатите Чеканной Монетой",
+        name: "Чеканная Монета",
         image: witcherImg,
         file: witcherSong,
         desc: "Лютик",
