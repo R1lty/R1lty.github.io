@@ -49,6 +49,7 @@ import kishAlbum from "./кишАльбом.jpg";
 import pizzaAlbum from "./pizzaAlbum.jpg";
 import akvariumAlbum from "./аквариумАльбольбом.jpg";
 
+
 import handeHoch from "./Hände Hoch.mp3";
 import soldierSong from "./Асуждаю.mp3";
 import witcherSong from "./Ведьмаку Заплатите Чеканой Моентой.mp3";
@@ -75,6 +76,7 @@ import ulibka from "./Улыбка.mp3";
 import fari from "./Фары.mp3";
 import kemerov from "./Человек из Кемерова.mp3";
 import tsustva from "./Чувства.mp3";
+import adelaida from "./Аделаида.mp3"
 
 export const assets = {
   bell_icon,
@@ -322,6 +324,15 @@ export const albumsData = [
         desc: "Егор Мартьянов",
         duration: "0:07",
       },
+      ,
+      {
+        id: 26,
+        name: "Аделаида",
+        image: akvarium,
+        file: adelaida,
+        desc: "Аквариум",
+        duration: "0:07",
+      }
     ],
   },
   {
@@ -459,12 +470,28 @@ export const albumsData = [
         file: kemerov,
         desc: "Аквариум",
         duration: "2:50",
-      },
+      },{
+        id: 1,
+        name: "Аделаида",
+        image: akvarium,
+        file: adelaida,
+        desc: "Аквариум",
+        duration: "0:07",
+      }
+      
     ],
   },
 ];
 
 export const songsData = [
+  {
+    id: 26,
+    name: "Аделаида",
+    image: akvarium,
+    file: adelaida,
+    desc: "Аквариум",
+    duration: "0:07",
+  },
   {
     id: 0,
     name: "Hände Hoch - Meine Kleine",
