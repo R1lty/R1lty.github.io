@@ -346,15 +346,6 @@ export const albumsData = [
         desc: "Егор Мартьянов",
         duration: "0:07",
       },
-      {
-        id: 29,
-        name: "Аделаида",
-        image: akvarium,
-        file: adelaida,
-        desc: "Аквариум",
-        duration: "0:07",
-      },
-      
     ],
   },
   {
@@ -743,14 +734,6 @@ export const songsData = [
     image: netflix,
     file: netflixSong,
     desc: "Егор Мартьянов",
-    duration: "0:07",
-  },
-  {
-    id: 29,
-    name: "Аделаида",
-    image: akvarium,
-    file: adelaida,
-    desc: "Аквариум",
     duration: "0:07",
   },
 ];
