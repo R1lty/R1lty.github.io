@@ -120,7 +120,7 @@ export const albumsData = [
         image: tsoy,
         file: devushkaBolna,
         desc: "Виктор Цой",
-        duration: "1:34",
+        duration: "3:16",
       },
       {
         id: 1,
@@ -128,7 +128,7 @@ export const albumsData = [
         image: akvarium,
         file: nikitaRezanskiy,
         desc: "Аквариум",
-        duration: "1:34",
+        duration: "2:59",
       },
       {
         id: 2,
@@ -136,7 +136,7 @@ export const albumsData = [
         image: akvarium,
         file: adelaida,
         desc: "Аквариум",
-        duration: "0:07",
+        duration: "3:35",
       },
       {
         id: 3,
@@ -481,7 +481,7 @@ export const albumsData = [
         image: akvarium,
         file: nikitaRezanskiy,
         desc: "Аквариум",
-        duration: "1:34",
+        duration: "2:59",
       },
       {
         id: 1,
@@ -496,7 +496,7 @@ export const albumsData = [
         image: akvarium,
         file: adelaida,
         desc: "Аквариум",
-        duration: "0:07",
+        duration: "3:35",
       },
       
     ],
@@ -510,7 +510,7 @@ export const songsData = [
     image: tsoy,
     file: devushkaBolna,
     desc: "Виктор Цой",
-    duration: "1:34",
+    duration: "3:16",
   },
   {
     id: 1,
@@ -518,7 +518,7 @@ export const songsData = [
     image: akvarium,
     file: nikitaRezanskiy,
     desc: "Аквариум",
-    duration: "1:34",
+    duration: "2:59",
   },
   {
     id: 2,
@@ -526,7 +526,7 @@ export const songsData = [
     image: akvarium,
     file: adelaida,
     desc: "Аквариум",
-    duration: "0:07",
+    duration: "3:55",
   },
   {
     id: 3,
