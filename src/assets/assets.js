@@ -48,9 +48,8 @@ import noizeAlbum from "./noizeAlbum.jpg";
 import kishAlbum from "./кишАльбом.jpg";
 import pizzaAlbum from "./pizzaAlbum.jpg";
 import akvariumAlbum from "./аквариумАльбольбом.jpg";
-import grecka from "./Гречка.jpg"
+import grecka from "./Гречка.jpg";
 import bi2 from "./bi2.jpg";
-
 
 import handeHoch from "./Hände Hoch.mp3";
 import soldierSong from "./Асуждаю.mp3";
@@ -78,12 +77,13 @@ import ulibka from "./Улыбка.mp3";
 import fari from "./Фары.mp3";
 import kemerov from "./Человек из Кемерова.mp3";
 import tsustva from "./Чувства.mp3";
-import adelaida from "./Аделаида.mp3"
-import nikitaRezanskiy from "./Никита Резанский.mp3"
-import devushkaBolna from "./Когда Твоя Девушка Больна.mp3"
-import lubiMenaLubi from "./Люби меня люби.mp3"
-import soManyLikes from "./soManyLikes.mp3"
-import getUpThisIsLove from "./Проснись.mp3"
+import adelaida from "./Аделаида.mp3";
+import nikitaRezanskiy from "./Никита Резанский.mp3";
+import devushkaBolna from "./Когда Твоя Девушка Больна.mp3";
+import lubiMenaLubi from "./Люби меня люби.mp3";
+import soManyLikes from "./soManyLikes.mp3";
+import getUpThisIsLove from "./Проснись.mp3";
+import lastochka from "./Ласточка.mp3";
 
 export const assets = {
   bell_icon,
@@ -121,6 +121,14 @@ export const albumsData = [
     songs: [
       {
         id: 0,
+        name: "Ласточка",
+        image: akvarium,
+        file: lastochka,
+        desc: "Аквариум",
+        duration: "2:33",
+      },
+      {
+        id: 1,
         name: "Проснись, это любовь",
         image: tsoy,
         file: getUpThisIsLove,
@@ -128,253 +136,253 @@ export const albumsData = [
         duration: "3:33",
       },
       {
-        id: 1,
+        id: 2,
         name: "Лайки",
         image: bi2,
         file: soManyLikes,
         desc: "Би-2",
         duration: "3:25",
-    },
-    {
-        id: 2,
+      },
+      {
+        id: 3,
         name: "Люби меня люби",
         image: grecka,
         file: lubiMenaLubi,
         desc: "Гречка",
         duration: "2:10",
-    },
-    {
-        id: 3,
+      },
+      {
+        id: 4,
         name: "Когда Твоя Девушка Больна",
         image: tsoy,
         file: devushkaBolna,
         desc: "Виктор Цой",
         duration: "3:16",
-    },
-    {
-        id: 4,
+      },
+      {
+        id: 5,
         name: "Никита Рязанский",
         image: akvarium,
         file: nikitaRezanskiy,
         desc: "Аквариум",
         duration: "2:59",
-    },
-    {
-        id: 5,
+      },
+      {
+        id: 6,
         name: "Жить в твоей голове",
         image: zemfiraImg,
         file: zemfiraSong,
         desc: "Земфира",
         duration: "3:14",
-    },
-    {
-        id: 6,
+      },
+      {
+        id: 7,
         name: "Аделаида",
         image: akvarium,
         file: adelaida,
         desc: "Аквариум",
         duration: "3:55",
-    },
-    {
-        id: 7,
+      },
+      {
+        id: 8,
         name: "Государыня",
         image: gosudarinaImg,
         file: gosudarinaSong,
         desc: "Аквариум",
         duration: "2:36",
-    },
-    {
-        id: 8,
+      },
+      {
+        id: 9,
         name: "Иж-412",
         image: iz412Img,
         file: iz412Song,
         desc: "RADIOTEHNIKA",
         duration: "3:25",
-    },
-    {
-        id: 9,
+      },
+      {
+        id: 10,
         name: "Чувства",
         image: anumalJazz,
         file: tsustva,
         desc: "Animal Jazz",
         duration: "3:15",
-    },
-    {
-        id: 10,
+      },
+      {
+        id: 11,
         name: "Человек из Кемерова",
         image: akvarium,
         file: kemerov,
         desc: "Аквариум",
         duration: "2:50",
-    },
-    {
-        id: 11,
+      },
+      {
+        id: 12,
         name: "Легенда",
         image: tsoy,
         file: legend,
         desc: "Виктор Цой",
         duration: "2:59",
-    },
-    {
-        id: 12,
+      },
+      {
+        id: 13,
         name: "Тебя я вспоминаю",
         image: egor,
         file: vspominayou,
         desc: "Егор Мартьянов",
         duration: "2:58",
-    },
-    {
-        id: 13,
+      },
+      {
+        id: 14,
         name: "Прости. Прощай. Привет",
         image: pornoFilms,
         file: prostiPoshaiPrivet,
         desc: "ПОРНОФИЛЬМЫ",
         duration: "4:49",
-    },
-    {
-        id: 14,
+      },
+      {
+        id: 15,
         name: "Гагарин",
         image: gagarinImg,
         file: gagarinSong,
         desc: "MIA BOYKA",
         duration: "2:14",
-    },
-    {
-        id: 15,
+      },
+      {
+        id: 16,
         name: "Вера",
         image: miladzeImg,
         file: vera,
         desc: "Валерий Меладзе",
         duration: "2:22",
-    },
-    {
-        id: 16,
+      },
+      {
+        id: 17,
         name: "Асуждаю",
         image: solier,
         file: soldierSong,
         desc: "Солдаты",
         duration: "3:10",
-    },
-    {
-        id: 17,
+      },
+      {
+        id: 18,
         name: "Чеканная Монета",
         image: witcherImg,
         file: witcherSong,
         desc: "Лютик",
         duration: "2:46",
-    },
-    {
-        id: 18,
+      },
+      {
+        id: 19,
         name: "Ведьма и Осёл",
         image: kishImg,
         file: vedmaIOsel,
         desc: "Король и Шут",
         duration: "2:31",
-    },
-    {
-        id: 19,
+      },
+      {
+        id: 20,
         name: "Из окна",
         image: noize,
         file: izOkna,
         desc: "Noize MC",
         duration: "3:24",
-    },
-    {
-        id: 20,
+      },
+      {
+        id: 21,
         name: "Палево!",
         image: noize,
         file: palevo,
         desc: "Noize MC",
         duration: "3:07",
-    },
-    {
-        id: 21,
+      },
+      {
+        id: 22,
         name: "Песня для радио",
         image: noize,
         file: radio,
         desc: "Noize MC",
         duration: "3:00",
-    },
-    {
-        id: 22,
+      },
+      {
+        id: 23,
         name: "Пиво Пиво Пиво!",
         image: knjaz,
         file: pivo,
         desc: "КняZz",
         duration: "1:41",
-    },
-    {
-        id: 23,
+      },
+      {
+        id: 24,
         name: "Прыгну со скалы",
         image: kishImg,
         file: skala,
         desc: "Король и Шут",
         duration: "1:34",
-    },
-    {
-        id: 24,
+      },
+      {
+        id: 25,
         name: "Солдатами не рождаются",
         image: letov,
         file: soldatamiNeRozdaytsa,
         desc: "Егор Летов",
         duration: "2:44",
-    },
-    {
-        id: 25,
+      },
+      {
+        id: 26,
         name: "Танец злобного гения",
         image: kishImg,
         file: genij,
         desc: "Король и Шут",
         duration: "2:30",
-    },
-    {
-        id: 26,
+      },
+      {
+        id: 27,
         name: "Улыбка",
         image: pizza,
         file: ulibka,
         desc: "PIZZA",
         duration: "1:18",
-    },
-    {
-        id: 27,
+      },
+      {
+        id: 28,
         name: "Фары",
         image: pizza,
         file: fari,
         desc: "PIZZA",
         duration: "0:43",
-    },
-    {
-        id: 28,
+      },
+      {
+        id: 29,
         name: "Крошка моя",
         image: rukiVerh,
         file: kroshka,
         desc: "Руки Вверх!",
         duration: "1:13",
-    },
-    {
-        id: 29,
+      },
+      {
+        id: 30,
         name: "Лесник",
         image: kishImg,
         file: lesnik,
         desc: "Король и Шут",
         duration: "1:48",
-    },
-    {
-        id: 30,
+      },
+      {
+        id: 31,
         name: "Нетфликс",
         image: netflix,
         file: netflixSong,
         desc: "Егор Мартьянов",
         duration: "0:07",
-    },
-    {
-        id: 31,
+      },
+      {
+        id: 32,
         name: "Hände Hoch",
         image: handeHoh,
         file: handeHoch,
         desc: "Прогулка по Берлину",
         duration: "1:34",
-    }
+      },
     ],
   },
   {
@@ -519,7 +527,8 @@ export const albumsData = [
         file: kemerov,
         desc: "Аквариум",
         duration: "2:50",
-      },{
+      },
+      {
         id: 2,
         name: "Аделаида",
         image: akvarium,
@@ -527,7 +536,6 @@ export const albumsData = [
         desc: "Аквариум",
         duration: "3:35",
       },
-      
     ],
   },
 ];
@@ -535,6 +543,14 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
+    name: "Ласточка",
+    image: akvarium,
+    file: lastochka,
+    desc: "Аквариум",
+    duration: "2:33",
+  },
+  {
+    id: 1,
     name: "Проснись, это любовь",
     image: tsoy,
     file: getUpThisIsLove,
@@ -542,252 +558,251 @@ export const songsData = [
     duration: "3:33",
   },
   {
-    id: 1,
+    id: 2,
     name: "Лайки",
     image: bi2,
     file: soManyLikes,
     desc: "Би-2",
     duration: "3:25",
-},
-{
-    id: 2,
+  },
+  {
+    id: 3,
     name: "Люби меня люби",
     image: grecka,
     file: lubiMenaLubi,
     desc: "Гречка",
     duration: "2:10",
-},
-{
-    id: 3,
+  },
+  {
+    id: 4,
     name: "Когда Твоя Девушка Больна",
     image: tsoy,
     file: devushkaBolna,
     desc: "Виктор Цой",
     duration: "3:16",
-},
-{
-    id: 4,
+  },
+  {
+    id: 5,
     name: "Никита Рязанский",
     image: akvarium,
     file: nikitaRezanskiy,
     desc: "Аквариум",
     duration: "2:59",
-},
-{
-    id: 5,
+  },
+  {
+    id: 6,
     name: "Жить в твоей голове",
     image: zemfiraImg,
     file: zemfiraSong,
     desc: "Земфира",
     duration: "3:14",
-},
-{
-    id: 6,
+  },
+  {
+    id: 7,
     name: "Аделаида",
     image: akvarium,
     file: adelaida,
     desc: "Аквариум",
     duration: "3:55",
-},
-{
-    id: 7,
+  },
+  {
+    id: 8,
     name: "Государыня",
     image: gosudarinaImg,
     file: gosudarinaSong,
     desc: "Аквариум",
     duration: "2:36",
-},
-{
-    id: 8,
+  },
+  {
+    id: 9,
     name: "Иж-412",
     image: iz412Img,
     file: iz412Song,
     desc: "RADIOTEHNIKA",
     duration: "3:25",
-},
-{
-    id: 9,
+  },
+  {
+    id: 10,
     name: "Чувства",
     image: anumalJazz,
     file: tsustva,
     desc: "Animal Jazz",
     duration: "3:15",
-},
-{
-    id: 10,
+  },
+  {
+    id: 11,
     name: "Человек из Кемерова",
     image: akvarium,
     file: kemerov,
     desc: "Аквариум",
     duration: "2:50",
-},
-{
-    id: 11,
+  },
+  {
+    id: 12,
     name: "Легенда",
     image: tsoy,
     file: legend,
     desc: "Виктор Цой",
     duration: "2:59",
-},
-{
-    id: 12,
+  },
+  {
+    id: 13,
     name: "Тебя я вспоминаю",
     image: egor,
     file: vspominayou,
     desc: "Егор Мартьянов",
     duration: "2:58",
-},
-{
-    id: 13,
+  },
+  {
+    id: 14,
     name: "Прости. Прощай. Привет",
     image: pornoFilms,
     file: prostiPoshaiPrivet,
     desc: "ПОРНОФИЛЬМЫ",
     duration: "4:49",
-},
-{
-    id: 14,
+  },
+  {
+    id: 15,
     name: "Гагарин",
     image: gagarinImg,
     file: gagarinSong,
     desc: "MIA BOYKA",
     duration: "2:14",
-},
-{
-    id: 15,
+  },
+  {
+    id: 16,
     name: "Вера",
     image: miladzeImg,
     file: vera,
     desc: "Валерий Меладзе",
     duration: "2:22",
-},
-{
-    id: 16,
+  },
+  {
+    id: 17,
     name: "Асуждаю",
     image: solier,
     file: soldierSong,
     desc: "Солдаты",
     duration: "3:10",
-},
-{
-    id: 17,
+  },
+  {
+    id: 18,
     name: "Чеканная Монета",
     image: witcherImg,
     file: witcherSong,
     desc: "Лютик",
     duration: "2:46",
-},
-{
-    id: 18,
+  },
+  {
+    id: 19,
     name: "Ведьма и Осёл",
     image: kishImg,
     file: vedmaIOsel,
     desc: "Король и Шут",
     duration: "2:31",
-},
-{
-    id: 19,
+  },
+  {
+    id: 20,
     name: "Из окна",
     image: noize,
     file: izOkna,
     desc: "Noize MC",
     duration: "3:24",
-},
-{
-    id: 20,
+  },
+  {
+    id: 21,
     name: "Палево!",
     image: noize,
     file: palevo,
     desc: "Noize MC",
     duration: "3:07",
-},
-{
-    id: 21,
+  },
+  {
+    id: 22,
     name: "Песня для радио",
     image: noize,
     file: radio,
     desc: "Noize MC",
     duration: "3:00",
-},
-{
-    id: 22,
+  },
+  {
+    id: 23,
     name: "Пиво Пиво Пиво!",
     image: knjaz,
     file: pivo,
     desc: "КняZz",
     duration: "1:41",
-},
-{
-    id: 23,
+  },
+  {
+    id: 24,
     name: "Прыгну со скалы",
     image: kishImg,
     file: skala,
     desc: "Король и Шут",
     duration: "1:34",
-},
-{
-    id: 24,
+  },
+  {
+    id: 25,
     name: "Солдатами не рождаются",
     image: letov,
     file: soldatamiNeRozdaytsa,
     desc: "Егор Летов",
     duration: "2:44",
-},
-{
-    id: 25,
+  },
+  {
+    id: 26,
     name: "Танец злобного гения",
     image: kishImg,
     file: genij,
     desc: "Король и Шут",
     duration: "2:30",
-},
-{
-    id: 26,
+  },
+  {
+    id: 27,
     name: "Улыбка",
     image: pizza,
     file: ulibka,
     desc: "PIZZA",
     duration: "1:18",
-},
-{
-    id: 27,
+  },
+  {
+    id: 28,
     name: "Фары",
     image: pizza,
     file: fari,
     desc: "PIZZA",
     duration: "0:43",
-},
-{
-    id: 28,
+  },
+  {
+    id: 29,
     name: "Крошка моя",
     image: rukiVerh,
     file: kroshka,
     desc: "Руки Вверх!",
     duration: "1:13",
-},
-{
-    id: 29,
+  },
+  {
+    id: 30,
     name: "Лесник",
     image: kishImg,
     file: lesnik,
     desc: "Король и Шут",
     duration: "1:48",
-},
-{
-    id: 30,
+  },
+  {
+    id: 31,
     name: "Нетфликс",
     image: netflix,
     file: netflixSong,
     desc: "Егор Мартьянов",
     duration: "0:07",
-},
-{
-    id: 31,
+  },
+  {
+    id: 32,
     name: "Hände Hoch",
     image: handeHoh,
     file: handeHoch,
     desc: "Прогулка по Берлину",
     duration: "1:34",
-}
-
+  },
 ];
