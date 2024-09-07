@@ -523,7 +523,15 @@ export const albumsData = [
     bgColor: "#744210",
     songs: [
       {
-        id: 0,
+        id: 1,
+        name: "Ласточка",
+        image: akvarium,
+        file: lastochka,
+        desc: "Аквариум",
+        duration: "2:33",
+      },
+      {
+        id: 1,
         name: "Никита Рязанский",
         image: akvarium,
         file: nikitaRezanskiy,
@@ -531,7 +539,7 @@ export const albumsData = [
         duration: "2:59",
       },
       {
-        id: 1,
+        id: 2,
         name: "Человек из Кемерова",
         image: akvarium,
         file: kemerov,
@@ -539,7 +547,7 @@ export const albumsData = [
         duration: "2:50",
       },
       {
-        id: 2,
+        id: 3,
         name: "Аделаида",
         image: akvarium,
         file: adelaida,
