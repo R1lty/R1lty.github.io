@@ -54,6 +54,9 @@ import butusov from "./Бутусов.jpg";
 import natilius from "./natilius.jpg";
 import ddt from "./ddt.jpg";
 import alisa from "./alisa.jpg";
+import morgen from "./morgen.jpg";
+import strikalo from "./стрыкало.jpg";
+import vaceJoy from "./vaceJoy.jpg";
 
 import handeHoch from "./Hände Hoch.mp3";
 import soldierSong from "./Асуждаю.mp3";
@@ -93,6 +96,11 @@ import glavnoe from "./Главное.mp3";
 import dihanie from "./Дыхание.mp3";
 import potolok from "./потолок.mp3";
 import osenieSolnce from "./Осенее солнце.mp3";
+import poslednjajaLubov from "./последняя любовь.mp3";
+import vseMoiDruzja from "./Все мои друзья.mp3";
+import vsoReseno from "./Мама я гей.mp3";
+import rustem from "./Рустем.mp3";
+import riptide from "./Riptide.mp3";
 
 export const assets = {
   bell_icon,
@@ -130,6 +138,46 @@ export const albumsData = [
     songs: [
       {
         id: 0,
+        name: "Riptide",
+        image: vaceJoy,
+        file: riptide,
+        desc: "Vance Joy",
+        duration: "0:58",
+      },
+      {
+        id: 1,
+        name: "Рустем",
+        image: strikalo,
+        file: rustem,
+        desc: "Валентин Стрыкало",
+        duration: "3:02",
+      },
+      {
+        id: 2,
+        name: "Все мои друзья",
+        image: strikalo,
+        file: vseMoiDruzja,
+        desc: "Валентин Стрыкало",
+        duration: "2:02",
+      },
+      {
+        id: 3,
+        name: "Всё решено",
+        image: strikalo,
+        file: vsoReseno,
+        desc: "Валентин Стрыкало",
+        duration: "3:13",
+      },
+      {
+        id: 4,
+        name: "Последняя Любовь",
+        image: morgen,
+        file: poslednjajaLubov,
+        desc: "Morgenshtern",
+        duration: "2:37",
+      },
+      {
+        id: 5,
         name: "Осеннее солнце",
         image: alisa,
         file: osenieSolnce,
@@ -137,7 +185,7 @@ export const albumsData = [
         duration: "5:56",
       },
       {
-        id: 1,
+        id: 6,
         name: "Потолок",
         image: ddt,
         file: potolok,
@@ -145,7 +193,7 @@ export const albumsData = [
         duration: "5:06",
       },
       {
-        id: 2,
+        id: 7,
         name: "Дыхание",
         image: natilius,
         file: dihanie,
@@ -153,7 +201,7 @@ export const albumsData = [
         duration: "3:30",
       },
       {
-        id: 3,
+        id: 8,
         name: "Главное",
         image: zemfiraImg,
         file: glavnoe,
@@ -161,7 +209,7 @@ export const albumsData = [
         duration: "3:01",
       },
       {
-        id: 4,
+        id: 9,
         name: "Я хочу быть с тобой",
         image: butusov,
         file: hochuBitSToboy,
@@ -169,7 +217,7 @@ export const albumsData = [
         duration: "4:40",
       },
       {
-        id: 5,
+        id: 10,
         name: "Ласточка",
         image: akvarium,
         file: lastochka,
@@ -177,7 +225,7 @@ export const albumsData = [
         duration: "2:33",
       },
       {
-        id: 6,
+        id: 11,
         name: "Проснись, это любовь",
         image: tsoy,
         file: getUpThisIsLove,
@@ -185,7 +233,7 @@ export const albumsData = [
         duration: "3:33",
       },
       {
-        id: 7,
+        id: 12,
         name: "Лайки",
         image: bi2,
         file: soManyLikes,
@@ -193,7 +241,7 @@ export const albumsData = [
         duration: "3:25",
       },
       {
-        id: 8,
+        id: 13,
         name: "Люби меня люби",
         image: grecka,
         file: lubiMenaLubi,
@@ -201,7 +249,7 @@ export const albumsData = [
         duration: "2:10",
       },
       {
-        id: 9,
+        id: 14,
         name: "Когда Твоя Девушка Больна",
         image: tsoy,
         file: devushkaBolna,
@@ -209,7 +257,7 @@ export const albumsData = [
         duration: "3:16",
       },
       {
-        id: 10,
+        id: 15,
         name: "Никита Рязанский",
         image: akvarium,
         file: nikitaRezanskiy,
@@ -217,7 +265,7 @@ export const albumsData = [
         duration: "2:59",
       },
       {
-        id: 11,
+        id: 16,
         name: "Жить в твоей голове",
         image: zemfiraImg,
         file: zemfiraSong,
@@ -225,7 +273,7 @@ export const albumsData = [
         duration: "3:14",
       },
       {
-        id: 12,
+        id: 17,
         name: "Аделаида",
         image: akvarium,
         file: adelaida,
@@ -233,7 +281,7 @@ export const albumsData = [
         duration: "3:55",
       },
       {
-        id: 13,
+        id: 18,
         name: "Государыня",
         image: gosudarinaImg,
         file: gosudarinaSong,
@@ -241,7 +289,7 @@ export const albumsData = [
         duration: "2:36",
       },
       {
-        id: 14,
+        id: 19,
         name: "Иж-412",
         image: iz412Img,
         file: iz412Song,
@@ -249,7 +297,7 @@ export const albumsData = [
         duration: "3:25",
       },
       {
-        id: 15,
+        id: 20,
         name: "Чувства",
         image: anumalJazz,
         file: tsustva,
@@ -257,7 +305,7 @@ export const albumsData = [
         duration: "3:15",
       },
       {
-        id: 16,
+        id: 21,
         name: "Человек из Кемерова",
         image: akvarium,
         file: kemerov,
@@ -265,7 +313,7 @@ export const albumsData = [
         duration: "2:50",
       },
       {
-        id: 17,
+        id: 22,
         name: "Легенда",
         image: tsoy,
         file: legend,
@@ -273,7 +321,7 @@ export const albumsData = [
         duration: "2:59",
       },
       {
-        id: 18,
+        id: 23,
         name: "Тебя я вспоминаю",
         image: egor,
         file: vspominayou,
@@ -281,7 +329,7 @@ export const albumsData = [
         duration: "2:58",
       },
       {
-        id: 19,
+        id: 24,
         name: "Прости. Прощай. Привет",
         image: pornoFilms,
         file: prostiPoshaiPrivet,
@@ -289,7 +337,7 @@ export const albumsData = [
         duration: "4:49",
       },
       {
-        id: 20,
+        id: 25,
         name: "Гагарин",
         image: gagarinImg,
         file: gagarinSong,
@@ -297,7 +345,7 @@ export const albumsData = [
         duration: "2:14",
       },
       {
-        id: 21,
+        id: 26,
         name: "Вера",
         image: miladzeImg,
         file: vera,
@@ -305,7 +353,7 @@ export const albumsData = [
         duration: "2:22",
       },
       {
-        id: 22,
+        id: 27,
         name: "Асуждаю",
         image: solier,
         file: soldierSong,
@@ -313,7 +361,7 @@ export const albumsData = [
         duration: "3:10",
       },
       {
-        id: 23,
+        id: 28,
         name: "Чеканная Монета",
         image: witcherImg,
         file: witcherSong,
@@ -321,7 +369,7 @@ export const albumsData = [
         duration: "2:46",
       },
       {
-        id: 24,
+        id: 29,
         name: "Ведьма и Осёл",
         image: kishImg,
         file: vedmaIOsel,
@@ -329,7 +377,7 @@ export const albumsData = [
         duration: "2:31",
       },
       {
-        id: 25,
+        id: 30,
         name: "Из окна",
         image: noize,
         file: izOkna,
@@ -337,7 +385,7 @@ export const albumsData = [
         duration: "3:24",
       },
       {
-        id: 26,
+        id: 31,
         name: "Палево!",
         image: noize,
         file: palevo,
@@ -345,7 +393,7 @@ export const albumsData = [
         duration: "3:07",
       },
       {
-        id: 27,
+        id: 32,
         name: "Песня для радио",
         image: noize,
         file: radio,
@@ -353,7 +401,7 @@ export const albumsData = [
         duration: "3:00",
       },
       {
-        id: 28,
+        id: 33,
         name: "Пиво Пиво Пиво!",
         image: knjaz,
         file: pivo,
@@ -361,7 +409,7 @@ export const albumsData = [
         duration: "1:41",
       },
       {
-        id: 29,
+        id: 34,
         name: "Прыгну со скалы",
         image: kishImg,
         file: skala,
@@ -369,7 +417,7 @@ export const albumsData = [
         duration: "1:34",
       },
       {
-        id: 30,
+        id: 35,
         name: "Солдатами не рождаются",
         image: letov,
         file: soldatamiNeRozdaytsa,
@@ -377,7 +425,7 @@ export const albumsData = [
         duration: "2:44",
       },
       {
-        id: 31,
+        id: 36,
         name: "Танец злобного гения",
         image: kishImg,
         file: genij,
@@ -385,7 +433,7 @@ export const albumsData = [
         duration: "2:30",
       },
       {
-        id: 32,
+        id: 37,
         name: "Улыбка",
         image: pizza,
         file: ulibka,
@@ -393,7 +441,7 @@ export const albumsData = [
         duration: "1:18",
       },
       {
-        id: 33,
+        id: 38,
         name: "Фары",
         image: pizza,
         file: fari,
@@ -401,7 +449,7 @@ export const albumsData = [
         duration: "0:43",
       },
       {
-        id: 34,
+        id: 39,
         name: "Крошка моя",
         image: rukiVerh,
         file: kroshka,
@@ -409,7 +457,7 @@ export const albumsData = [
         duration: "1:13",
       },
       {
-        id: 35,
+        id: 40,
         name: "Лесник",
         image: kishImg,
         file: lesnik,
@@ -417,7 +465,7 @@ export const albumsData = [
         duration: "1:48",
       },
       {
-        id: 36,
+        id: 41,
         name: "Нетфликс",
         image: netflix,
         file: netflixSong,
@@ -425,7 +473,7 @@ export const albumsData = [
         duration: "0:07",
       },
       {
-        id: 37,
+        id: 42,
         name: "Hände Hoch",
         image: handeHoh,
         file: handeHoch,
@@ -600,6 +648,46 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
+    name: "Riptide",
+    image: vaceJoy,
+    file: riptide,
+    desc: "Vance Joy",
+    duration: "0:58",
+  },
+  {
+    id: 1,
+    name: "Рустем",
+    image: strikalo,
+    file: rustem,
+    desc: "Валентин Стрыкало",
+    duration: "3:02",
+  },
+  {
+    id: 2,
+    name: "Все мои друзья",
+    image: strikalo,
+    file: vseMoiDruzja,
+    desc: "Валентин Стрыкало",
+    duration: "2:02",
+  },
+  {
+    id: 3,
+    name: "Всё решено",
+    image: strikalo,
+    file: vsoReseno,
+    desc: "Валентин Стрыкало",
+    duration: "3:13",
+  },
+  {
+    id: 4,
+    name: "Последняя Любовь",
+    image: morgen,
+    file: poslednjajaLubov,
+    desc: "Morgenshtern",
+    duration: "2:37",
+  },
+  {
+    id: 5,
     name: "Осеннее солнце",
     image: alisa,
     file: osenieSolnce,
@@ -607,7 +695,7 @@ export const songsData = [
     duration: "5:56",
   },
   {
-    id: 1,
+    id: 6,
     name: "Потолок",
     image: ddt,
     file: potolok,
@@ -615,7 +703,7 @@ export const songsData = [
     duration: "5:06",
   },
   {
-    id: 2,
+    id: 7,
     name: "Дыхание",
     image: natilius,
     file: dihanie,
@@ -623,7 +711,7 @@ export const songsData = [
     duration: "3:30",
   },
   {
-    id: 3,
+    id: 8,
     name: "Главное",
     image: zemfiraImg,
     file: glavnoe,
@@ -631,7 +719,7 @@ export const songsData = [
     duration: "3:01",
   },
   {
-    id: 4,
+    id: 9,
     name: "Я хочу быть с тобой",
     image: butusov,
     file: hochuBitSToboy,
@@ -639,7 +727,7 @@ export const songsData = [
     duration: "4:40",
   },
   {
-    id: 5,
+    id: 10,
     name: "Ласточка",
     image: akvarium,
     file: lastochka,
@@ -647,7 +735,7 @@ export const songsData = [
     duration: "2:33",
   },
   {
-    id: 6,
+    id: 11,
     name: "Проснись, это любовь",
     image: tsoy,
     file: getUpThisIsLove,
@@ -655,7 +743,7 @@ export const songsData = [
     duration: "3:33",
   },
   {
-    id: 7,
+    id: 12,
     name: "Лайки",
     image: bi2,
     file: soManyLikes,
@@ -663,7 +751,7 @@ export const songsData = [
     duration: "3:25",
   },
   {
-    id: 8,
+    id: 13,
     name: "Люби меня люби",
     image: grecka,
     file: lubiMenaLubi,
@@ -671,7 +759,7 @@ export const songsData = [
     duration: "2:10",
   },
   {
-    id: 9,
+    id: 14,
     name: "Когда Твоя Девушка Больна",
     image: tsoy,
     file: devushkaBolna,
@@ -679,7 +767,7 @@ export const songsData = [
     duration: "3:16",
   },
   {
-    id: 10,
+    id: 15,
     name: "Никита Рязанский",
     image: akvarium,
     file: nikitaRezanskiy,
@@ -687,7 +775,7 @@ export const songsData = [
     duration: "2:59",
   },
   {
-    id: 11,
+    id: 16,
     name: "Жить в твоей голове",
     image: zemfiraImg,
     file: zemfiraSong,
@@ -695,7 +783,7 @@ export const songsData = [
     duration: "3:14",
   },
   {
-    id: 12,
+    id: 17,
     name: "Аделаида",
     image: akvarium,
     file: adelaida,
@@ -703,7 +791,7 @@ export const songsData = [
     duration: "3:55",
   },
   {
-    id: 13,
+    id: 18,
     name: "Государыня",
     image: gosudarinaImg,
     file: gosudarinaSong,
@@ -711,7 +799,7 @@ export const songsData = [
     duration: "2:36",
   },
   {
-    id: 14,
+    id: 19,
     name: "Иж-412",
     image: iz412Img,
     file: iz412Song,
@@ -719,7 +807,7 @@ export const songsData = [
     duration: "3:25",
   },
   {
-    id: 15,
+    id: 20,
     name: "Чувства",
     image: anumalJazz,
     file: tsustva,
@@ -727,7 +815,7 @@ export const songsData = [
     duration: "3:15",
   },
   {
-    id: 16,
+    id: 21,
     name: "Человек из Кемерова",
     image: akvarium,
     file: kemerov,
@@ -735,7 +823,7 @@ export const songsData = [
     duration: "2:50",
   },
   {
-    id: 17,
+    id: 22,
     name: "Легенда",
     image: tsoy,
     file: legend,
@@ -743,7 +831,7 @@ export const songsData = [
     duration: "2:59",
   },
   {
-    id: 18,
+    id: 23,
     name: "Тебя я вспоминаю",
     image: egor,
     file: vspominayou,
@@ -751,7 +839,7 @@ export const songsData = [
     duration: "2:58",
   },
   {
-    id: 19,
+    id: 24,
     name: "Прости. Прощай. Привет",
     image: pornoFilms,
     file: prostiPoshaiPrivet,
@@ -759,7 +847,7 @@ export const songsData = [
     duration: "4:49",
   },
   {
-    id: 20,
+    id: 25,
     name: "Гагарин",
     image: gagarinImg,
     file: gagarinSong,
@@ -767,7 +855,7 @@ export const songsData = [
     duration: "2:14",
   },
   {
-    id: 21,
+    id: 26,
     name: "Вера",
     image: miladzeImg,
     file: vera,
@@ -775,7 +863,7 @@ export const songsData = [
     duration: "2:22",
   },
   {
-    id: 22,
+    id: 27,
     name: "Асуждаю",
     image: solier,
     file: soldierSong,
@@ -783,7 +871,7 @@ export const songsData = [
     duration: "3:10",
   },
   {
-    id: 23,
+    id: 28,
     name: "Чеканная Монета",
     image: witcherImg,
     file: witcherSong,
@@ -791,7 +879,7 @@ export const songsData = [
     duration: "2:46",
   },
   {
-    id: 24,
+    id: 29,
     name: "Ведьма и Осёл",
     image: kishImg,
     file: vedmaIOsel,
@@ -799,7 +887,7 @@ export const songsData = [
     duration: "2:31",
   },
   {
-    id: 25,
+    id: 30,
     name: "Из окна",
     image: noize,
     file: izOkna,
@@ -807,7 +895,7 @@ export const songsData = [
     duration: "3:24",
   },
   {
-    id: 26,
+    id: 31,
     name: "Палево!",
     image: noize,
     file: palevo,
@@ -815,7 +903,7 @@ export const songsData = [
     duration: "3:07",
   },
   {
-    id: 27,
+    id: 32,
     name: "Песня для радио",
     image: noize,
     file: radio,
@@ -823,7 +911,7 @@ export const songsData = [
     duration: "3:00",
   },
   {
-    id: 28,
+    id: 33,
     name: "Пиво Пиво Пиво!",
     image: knjaz,
     file: pivo,
@@ -831,7 +919,7 @@ export const songsData = [
     duration: "1:41",
   },
   {
-    id: 29,
+    id: 34,
     name: "Прыгну со скалы",
     image: kishImg,
     file: skala,
@@ -839,7 +927,7 @@ export const songsData = [
     duration: "1:34",
   },
   {
-    id: 30,
+    id: 35,
     name: "Солдатами не рождаются",
     image: letov,
     file: soldatamiNeRozdaytsa,
@@ -847,7 +935,7 @@ export const songsData = [
     duration: "2:44",
   },
   {
-    id: 31,
+    id: 36,
     name: "Танец злобного гения",
     image: kishImg,
     file: genij,
@@ -855,7 +943,7 @@ export const songsData = [
     duration: "2:30",
   },
   {
-    id: 32,
+    id: 37,
     name: "Улыбка",
     image: pizza,
     file: ulibka,
@@ -863,7 +951,7 @@ export const songsData = [
     duration: "1:18",
   },
   {
-    id: 33,
+    id: 38,
     name: "Фары",
     image: pizza,
     file: fari,
@@ -871,7 +959,7 @@ export const songsData = [
     duration: "0:43",
   },
   {
-    id: 34,
+    id: 39,
     name: "Крошка моя",
     image: rukiVerh,
     file: kroshka,
@@ -879,7 +967,7 @@ export const songsData = [
     duration: "1:13",
   },
   {
-    id: 35,
+    id: 40,
     name: "Лесник",
     image: kishImg,
     file: lesnik,
@@ -887,7 +975,7 @@ export const songsData = [
     duration: "1:48",
   },
   {
-    id: 36,
+    id: 41,
     name: "Нетфликс",
     image: netflix,
     file: netflixSong,
@@ -895,7 +983,7 @@ export const songsData = [
     duration: "0:07",
   },
   {
-    id: 37,
+    id: 42,
     name: "Hände Hoch",
     image: handeHoh,
     file: handeHoch,
